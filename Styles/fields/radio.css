@@ -40,17 +40,14 @@ gap: 1rem;
     left: .5rem;
   }
   &:hover, &:focus-within {
-    border: 1px solid var(--stroke-highloght);
-
-
+    border: 1px solid var(--stroke-highlight);
     & .radio-image{
         background-image: url(../../Assets/icons/radio-hover.svg);
     }
   }
 
   &:has(:checked) {
-    border: 2pxs solid var(--stroke-highloght);
-
+    border: 2px solid var(--stroke-highlight);
     & .radio-image{
         background-image: url(../../Assets/icons/radio-checked.svg);
     }
